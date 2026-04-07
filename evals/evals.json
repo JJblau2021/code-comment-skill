@@ -1,0 +1,23 @@
+{
+  "skill_name": "code-comment",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "用 Python 写一个函数，计算两个日期之间的天数差距",
+      "expected_output": "Python 函数，包含完整的中文注释（文件级注释、函数级 DocString、关键代码行注释）",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "用 TypeScript 实现一个简单的任务队列类，包含入队、出队、判断队列是否为空的功能",
+      "expected_output": "TypeScript 类，包含完整的中文注释（文件级 JSDoc、类注释、方法注释、关键代码行注释）",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "帮我写一个 Go 语言的 HTTP 中间件，用于记录请求日志，包括请求路径、方法和处理时间",
+      "expected_output": "Go 语言中间件代码，包含完整的中文注释（包注释、函数注释、关键逻辑行注释）",
+      "files": []
+    }
+  ]
+}
